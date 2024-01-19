@@ -13,7 +13,7 @@ Txd => P11 Vss => GND Vdd => 5V Rxd => P12 STBY => GND CANH => CAN H line with r
 Txd (Transmitter Data) of MCP2561 is connected to pin P11 of STM32. Vss (Ground Supply Pin) of MCP2561 should be connected to the ground (GND) of STM32 to complete the power circuit. Vdd (Supply Voltage Pin) of MCP2561 should be connected to a 5V source on the STM32 to power the transceiver. Rxd (Receiver Data Output Pin) of MCP2561 is connected to pin P12 of ST32. STBY (Standby Mode Input Pin) of MCP2561 is connected to ground (GND) as mentioned. If you want to activate normal mode, make sure it is connected to Vdd or held through a resistor to Vdd. CANH and CANL should be connected to the CAN bus along with 120-ohm terminal resistors to ensure proper termination of the CAN bus.
 
 Contribution guidelines
-Referential video https://www.youtube.com/shorts/il5Ge-uUaHc
+Referential video https://www.youtube.com/shorts/Cmko3YY6l-k
 
 Writing tests
 Code review
